@@ -1,0 +1,21 @@
+        html {
+            overflow: hidden;
+            height: 100%;
+        }
+        
+        .one video {
+            object-fit: cover;
+        }
+        
+        .localVideo {
+            width: 20%;
+            position: absolute;
+            z-index: 2;
+            top: 10px;
+            left: 10px;
+            display: block;
+        }
+        
+        body {
+            background-color: lightgreen;
+        }
